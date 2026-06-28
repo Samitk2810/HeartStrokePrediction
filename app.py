@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib as jb
 
-model = jb.load('KNN_heart.pkl')
+model = jb.load('LR_heart.pkl')
 scaler = jb.load('scaler.pkl')
 columns = jb.load('columns.pkl')
 
