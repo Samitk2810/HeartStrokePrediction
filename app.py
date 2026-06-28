@@ -6,7 +6,7 @@ model = jb.load('LR_heart.pkl')
 scaler = jb.load('scaler.pkl')
 columns = jb.load('columns.pkl')
 
-st.title("Heart Stroke Prediction By Samit 💓")
+st.title("Heart Disease Prediction By Samit 💓")
 st.markdown("Provide the following details: ")
 
 age = st.slider("Age", 18, 100, 40)
